@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Aug 11 16:03:33 2019
-
-@author: Jack
-"""
-
 import requests
 import json
 
@@ -91,3 +84,4 @@ def getRoutesForLatLon(key, lat, lon, maxDistance=30, maxResults=50, minDiff="5.
     return json.loads(response.text)
 
     
+

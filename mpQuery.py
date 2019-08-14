@@ -89,10 +89,5 @@ def getRoutesForLatLon(key, lat, lon, maxDistance=30, maxResults=50, minDiff="5.
     print(queryURL)
     response = requests.get(queryURL)
     return json.loads(response.text)
-    
-def main():
 
-    privateKey = '112446503-8924701af82f2e439e9312357672ca8d'
-
-main()
     

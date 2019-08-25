@@ -8,7 +8,15 @@ __Required packages__: json, requests
 __Example usage can be found at__: https://github.com/jacktlange/MountainProject-User-Analysis
 
 
+
+
+
+
+
+
+
 Available functions:
+=========================================================================================================
 
 ### getUser(key, userId="", email="")
     Return genral user information as JSON dictionary

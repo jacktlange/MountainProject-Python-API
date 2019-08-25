@@ -5,7 +5,7 @@ Install using: pip install MountainProjectPublicAPI
 Required packages: json, requests
 
 
-
+Example usage can be found at: https://github.com/jacktlange/MountainProject-User-Analysis
 
 
 Available functions:

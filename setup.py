@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="MountainProjectPublicAPI",
-    version="0.0.4",
+    version="0.1.0",
     author="Jack Lange",
     author_email="jacktlange@gmail.com",
     description="Python Wrapper for Mountain Project public data API",

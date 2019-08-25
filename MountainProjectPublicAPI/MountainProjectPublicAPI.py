@@ -28,9 +28,9 @@ def getUser(key, userId="", email=""):
 ### returns: Users ticks as JSON dictionary
 def getTicks(key, userId="", email="", startPos=0):
     if userId == "" and email != "":
-        queryString =  "get-ticks?email=" + email + "&" + str(startPos)
+        queryString =  "get-ticks?email=" + email + "&startPos=" + str(startPos)
     elif userId != "" and email == "":
-        queryString =  "get-ticks?userId=" + userId + "&" + str(startPos)
+        queryString =  "get-ticks?userId=" + userId + "&startPos=" + str(startPos)
     else:
         raise Exception("Supply only a userId or email, not both")
     queryURL = baseURL + queryString + "&key=" + key
@@ -46,9 +46,9 @@ def getTicks(key, userId="", email="", startPos=0):
 ### returns: User's TODOs as JSON dictionary
 def getToDos(key, userId="", email="", startPos=0):
     if userId == "" and email != "":
-        queryString =  "get-to-dos?email=" + email + "&" + str(startPos)
+        queryString =  "get-to-dos?email=" + email + "&startPos=" + str(startPos)
     elif userId != "" and email == "":
-        queryString =  "get-to-dos?userId=" + userId + "&" + str(startPos)
+        queryString =  "get-to-dos?userId=" + userId + "&startPos=" + str(startPos)
     else:
         raise Exception("Supply only a userId or email, not both")
     queryURL = baseURL + queryString + "&key=" + key

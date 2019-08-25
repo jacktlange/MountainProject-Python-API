@@ -1,11 +1,11 @@
 This package is a wrapper for the Mountain Project public data API: https://www.mountainproject.com/data. 
+=========================================================================================================
+__Install using__: pip install MountainProjectPublicAPI
 
-Install using: pip install MountainProjectPublicAPI
-
-Required packages: json, requests
+__Required packages__: json, requests
 
 
-Example usage can be found at: https://github.com/jacktlange/MountainProject-User-Analysis
+__Example usage can be found at__: https://github.com/jacktlange/MountainProject-User-Analysis
 
 
 Available functions:
